@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/www.kohi.co.in/static/css/main.2ffef021.css",
-    "main.js": "/www.kohi.co.in/static/js/main.72e1729e.js",
+    "main.js": "/www.kohi.co.in/static/js/main.e4f22277.js",
+    "static/media/logo.png": "/www.kohi.co.in/static/media/logo.1f99a1873b0722b85af7.png",
     "index.html": "/www.kohi.co.in/index.html",
     "main.2ffef021.css.map": "/www.kohi.co.in/static/css/main.2ffef021.css.map",
-    "main.72e1729e.js.map": "/www.kohi.co.in/static/js/main.72e1729e.js.map"
+    "main.e4f22277.js.map": "/www.kohi.co.in/static/js/main.e4f22277.js.map"
   },
   "entrypoints": [
     "static/css/main.2ffef021.css",
-    "static/js/main.72e1729e.js"
+    "static/js/main.e4f22277.js"
   ]
 }
