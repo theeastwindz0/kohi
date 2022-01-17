@@ -1,0 +1,27 @@
+.bigScreen{
+    display:contents;
+}
+
+.smallScreen{
+    display: none;
+}
+
+.menuIcon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menuIcon:hover{
+    color: limegreen;
+}
+
+@media (max-width:750px)
+{
+    .bigScreen{
+        display: none;
+    }
+
+    .smallScreen{
+        display: contents;
+    }
+}

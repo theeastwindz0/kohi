@@ -1,0 +1,27 @@
+.Button{
+    text-decoration: none;
+
+    border: 1px solid white;
+    color: white;
+    padding: 14px 18px;
+
+    font-weight: bold;
+
+    margin: 0PX 10px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    transition: 0.5s;
+}
+
+.Button:hover{
+background-color:limegreen;
+}
+
+@media (max-width:750px)
+{
+    .Button{
+        margin: 10px;
+    }
+}
