@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kohi/static/css/main.e6c13ad2.css",
+    "main.js": "/kohi/static/js/main.34c6d145.js",
+    "index.html": "/kohi/index.html",
+    "main.e6c13ad2.css.map": "/kohi/static/css/main.e6c13ad2.css.map",
+    "main.34c6d145.js.map": "/kohi/static/js/main.34c6d145.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.34c6d145.js"
+  ]
+}
