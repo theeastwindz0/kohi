@@ -1,0 +1,17 @@
+.Image_Container img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:1000px) {
+    .Image_Container{
+        margin: auto;
+        overflow: hidden;   
+    }
+    
+    .Image_Container img{
+        width: 200%;
+        height: auto;
+    }
+}
+

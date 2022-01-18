@@ -5,19 +5,25 @@
   justify-content: space-between;
 
   padding: 8px;
-  background-color: black;
+  background-color: inherit;
 
-  color: white;
+  color: inherit;
 
   font-family: "Carter One", cursive;
 
+}
+
+.header_left{
+  margin-left: 20px;
 }
 
 .header_left img {
   width: 50px;
 }
 
-
+.header_middle img{
+  width: 100px;
+}
 
 .overlay {
   display: flex;
@@ -30,11 +36,12 @@
 
   position: fixed;
   top: 0;
-
+  right: 0;
   right: -100%;
-  transition: 0.5s;
-
-  background-color: black;
+  width: 0;
+  /* right: -100%; */
+  transition: 1s;
+  background-color: inherit;
   opacity: 0.9;
 }
 .submenu {
@@ -43,7 +50,7 @@
 }
 
 .crossIcon {
-  color: white;
+  color: inherit;
   font-size: 30px;
 
   position: absolute;
@@ -59,5 +66,9 @@
 @media (max-width: 750px) {
   .header_middle h1 {
     font-size: 24px;
+  }
+
+  .header_middle img{
+    width: 75px;
   }
 }

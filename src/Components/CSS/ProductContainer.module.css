@@ -1,0 +1,51 @@
+.Product_Container {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+
+.title{
+    font-family: 'Carter one',cursive;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.box_right,
+.box_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  width: 500px;
+  text-align: center;
+}
+.box_left>*
+{
+    margin: 20px;
+}
+
+.box_left p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.box_right {
+}
+.box_right img {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 750px) {
+    .box_left{
+        order: 2;
+        width: 100%;
+    }
+
+    .box_right{
+        width: 100%;
+    }
+}

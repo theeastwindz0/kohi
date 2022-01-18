@@ -1,48 +1,57 @@
 import styles from "../CSS/Header.module.css";
 import logo from "../../Images/logo.png";
+import logo_text_white from "../../Images/Misc/kohi_text_white.png";
 import Navigation from "./Navigation";
 import Button from "./Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+  const onClose = () => {
+    document.getElementById("overlay").style.width = "0";
+    document.getElementById("overlay").style.right= "-100%";
 
-    const onClose=()=>{
-        document.getElementById('overlay').style.right='-100%';
-    }
+  };
 
-    const onOpen=()=>{
-        document.getElementById('overlay').style.right='0%';
-    }
+  const onOpen = () => {
+    document.getElementById("overlay").style.width = "250px";
+    document.getElementById("overlay").style.right = "0%";
 
-    const buttons=[
-      {title:'HOME',
-      location:'home'},
-      {
-        title:'STORE',
-        location:'store'
-      },
-      {
-        title:'ABOUT',
-        location:'about'
-      }
-    ]
+  };
+
+  const buttons = [
+    { title: "HOME", location: "home" },
+    {
+      title: "STORE",
+      location: "store",
+    },
+    {
+      title: "ABOUT",
+      location: "about",
+    },
+  ];
 
   return (
     <>
       <div className={styles.Header}>
         <div className={styles.header_left}>
-          <img src={logo}></img>
+        <img src={logo}></img>
+          
+          
         </div>
         <div className={styles.header_middle}>
-          <h1>KOHI</h1>
+        <img src={logo_text_white}></img>
         </div>
         <div className={styles.header_right}>
-          <Navigation buttons={buttons} onOpen={onOpen}/>
+          <Navigation buttons={buttons} onOpen={onOpen} />
         </div>
       </div>
       <div className={styles.overlay} id="overlay">
-        <FontAwesomeIcon onClick={onClose} icon={faTimes} className={styles.crossIcon}></FontAwesomeIcon>
+        <FontAwesomeIcon
+          onClick={onClose}
+          icon={faTimes}
+          className={styles.crossIcon}
+        ></FontAwesomeIcon>
         <div className={styles.submenu}>
           <Button href="#">{buttons[0].title}</Button>
           <Button href="#">{buttons[1].title}</Button>
