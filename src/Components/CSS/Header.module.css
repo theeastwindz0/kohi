@@ -11,14 +11,23 @@
 
   font-family: "Carter One", cursive;
 
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header_left{
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .header_left img {
   width: 50px;
+  transition: 1s;
+
+}
+
+.header_left img:hover{
+transform: scale(1.1);
 }
 
 .header_middle img{
@@ -41,8 +50,9 @@
   width: 0;
   /* right: -100%; */
   transition: 1s;
-  background-color: inherit;
-  opacity: 0.9;
+  background-color: rgba(7, 7, 7, 0.8);
+  backdrop-filter: blur(8px);
+
 }
 .submenu {
   display: flex;
@@ -64,11 +74,15 @@
 }
 
 @media (max-width: 750px) {
-  .header_middle h1 {
-    font-size: 24px;
+  .header_left img {
+    width: 40px;
   }
 
   .header_middle img{
     width: 75px;
+  }
+
+  .header_middle{
+    display: none;
   }
 }

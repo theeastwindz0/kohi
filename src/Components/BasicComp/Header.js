@@ -1,29 +1,28 @@
 import styles from "../CSS/Header.module.css";
-import logo from "../../Images/logo.png";
+import logo_white from "../../Images/logo_white.png";
 import logo_text_white from "../../Images/Misc/kohi_text_white.png";
 import Navigation from "./Navigation";
 import Button from "./Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const onClose = () => {
-    document.getElementById("overlay").style.width = "0";
-    document.getElementById("overlay").style.right= "-100%";
-
+    document.getElementById("overlay").style.width = "0px ";
+    document.getElementById("overlay").style.right = "-100%";
   };
 
   const onOpen = () => {
     document.getElementById("overlay").style.width = "250px";
     document.getElementById("overlay").style.right = "0%";
-
   };
 
   const buttons = [
-    { title: "HOME", location: "home" },
+    { title: "HOME", location: "/" },
     {
-      title: "STORE",
-      location: "store",
+      title: "PRODUCTS",
+      location: "products",
     },
     {
       title: "ABOUT",
@@ -35,12 +34,10 @@ const Header = () => {
     <>
       <div className={styles.Header}>
         <div className={styles.header_left}>
-        <img src={logo}></img>
-          
-          
+          <Link to={buttons[0].location}><img src={logo_white}></img></Link>
         </div>
         <div className={styles.header_middle}>
-        <img src={logo_text_white}></img>
+          <img src={logo_text_white}></img>
         </div>
         <div className={styles.header_right}>
           <Navigation buttons={buttons} onOpen={onOpen} />
@@ -53,9 +50,7 @@ const Header = () => {
           className={styles.crossIcon}
         ></FontAwesomeIcon>
         <div className={styles.submenu}>
-          <Button href="#">{buttons[0].title}</Button>
-          <Button href="#">{buttons[1].title}</Button>
-          <Button href="#">{buttons[2].title}</Button>
+        <Button onClose={onClose} borderColor={"white"} buttons={buttons}/>
         </div>
       </div>
     </>

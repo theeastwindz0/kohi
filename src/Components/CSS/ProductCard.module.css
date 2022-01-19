@@ -1,0 +1,84 @@
+.Product_Card{
+    margin: 40px auto;
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* padding: 10px; */
+
+    box-shadow: 0 4px 8px 0 rgb(177, 177, 177);
+}
+.Product_Card_Text,.Product_Card_Image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Product_Card_Text{
+    text-align: center;
+    width: 80%;
+}
+
+.Product_Card_Text>*{
+    margin: 14px;
+}
+
+
+.Product_Card_Image img{
+    margin-top: 10px;
+    width:80%;
+    height: auto;
+}
+
+.Ribbon{
+    background-color: limegreen;
+    padding: 8px;
+
+    position: absolute;
+    top: 110px;
+    right: 1;
+    translate: (-50%,-40%);
+}
+.Price{
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+@media (max-width:1000px)
+{
+
+    .Product_Card {
+        flex-direction: row;
+        width:  90%;
+        /* padding: 10px; */
+        margin:20px auto;
+    }
+    .Product_Card_Image{
+        margin: 0px ;
+    }
+     .Product_Card_Image img{
+        width: 100px;
+        margin: 0;
+    }
+
+    .Product_Card_Text{
+        width: 90%;
+    }
+    .Product_Card_Text >*{
+        margin: 0px;
+    }
+    .Price{
+        width: auto;
+        height: 100%;
+        padding: 20px;
+    }
+}
+    

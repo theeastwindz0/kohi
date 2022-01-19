@@ -1,6 +1,10 @@
+.LinkButton{
+color: white;
+}
+
 .Button{
     text-decoration: none;
-
+    text-align: center;
     border: 1px solid black;
     
     color: inherit;
@@ -16,6 +20,37 @@
     transition: 0.5s;
 
     cursor: pointer;
+    display: inline;
+
+}
+
+.Button_3{
+    background-color: black;
+    width: 100%;
+
+    padding: 12px 0px;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Carter one',cursive;
+    outline: none;
+    font-size: 18px;
+
+    transition: 0.2s;
+}
+
+.Button_3:hover{
+    background-color: limegreen;
+}
+
+.Button_2{
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+.Button_2:hover{
+transform: scale(1.1);
 }
 
 .Button:hover{
@@ -26,5 +61,11 @@ background-color:limegreen;
 {
     .Button{
         margin: 10px;
+        display: flex;
+        flex-direction: column
+        
+    }
+
+    .Button_2{
     }
 }
