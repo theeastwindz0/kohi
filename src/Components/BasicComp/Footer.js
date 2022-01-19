@@ -3,9 +3,8 @@ import styles from '../CSS/Footer.module.css'
 import { faYoutube,faFacebook,faInstagram,faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
-    // const year=Date.getFullYear();
-    // console.log(year);
-    return (
+    const currentYear=new Date().getFullYear();
+        return (
         <>
         <div className={styles.Footer}>
             <div className={styles.footer_left}>
@@ -15,7 +14,7 @@ const Footer = () => {
 
             </div>
             <div className={styles.footer_middle}>
-            <h4>Copyright &copy; 2022 All rights reserved</h4>
+            <h4>Copyright &copy; {currentYear} All rights reserved</h4>
             </div>
             <div className={styles.footer_right}>
                 

@@ -3,6 +3,7 @@ import bg_image_03 from '../../Images/Background/bg_image_04.jpg'
 import ProdutContainer from "../BasicComp/ProdutContainer"
 import product_mobile_holder from "../../Images/Products/product_mobile_holder/product_mobile_holder.jpeg";
 import {useEffect} from 'react'
+import Parallex_Showcase from "../BasicComp/Parallex_Showcase";
 
 const HomePage = () => {
     
@@ -23,6 +24,7 @@ const HomePage = () => {
         <>
             <ImageContainer Container_Image={bg_image_03}/>
             <ProdutContainer dataToReceive={dataToSend}></ProdutContainer>
+            <Parallex_Showcase/>
         </>
     )
 }

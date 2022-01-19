@@ -1,0 +1,61 @@
+.Parallex_Showcase{
+    /* background-image: url('../../Images/Background/bg_image_05.jpg');
+    background-size: cover;
+    background-attachment: fixed; */
+    padding: 40px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box_1 {
+    font-family: 'Carter one ';
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align:center;
+    width:80%;
+
+}
+
+.box_2 img{
+    width: 500px;
+    border: 1px solid red;
+}
+.box{
+    margin: 50px 120px;
+    text-align:center;
+    color: white;
+}
+.box_3{
+    margin-top: 20px;
+}
+
+.icon{
+    font-size: 24px;
+}
+
+@media (max-width:750px)
+{
+    .box{
+        margin: 20px;
+    }
+
+    .box_2 img{
+        width: 100%;
+        height: auto;
+    }
+}
