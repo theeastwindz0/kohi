@@ -9,7 +9,6 @@ function App() {
   return (
     
     <>
-    <BrowserRouter basename="/">
     <Header/>
       <Routes>
         <Route exact path='/' element={<HomePage/>}/>
@@ -17,7 +16,6 @@ function App() {
         <Route path='about' element={<AboutPage/>}/>
       </Routes>
     <Footer/>
-    </BrowserRouter>
     </>
   );
 }
