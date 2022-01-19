@@ -49,8 +49,8 @@ color: white;
     text-decoration: none;
     color: black;
 }
-.Button_2:hover{
-transform: scale(1.1);
+.Button_2:hover{transform: scale(1.01);
+
 }
 
 .Button:hover{

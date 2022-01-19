@@ -9,7 +9,7 @@ function App() {
   return (
     
     <>
-    <BrowserRouter basename="/kohi">
+    <BrowserRouter basename="/">
     <Header/>
       <Routes>
         <Route exact path='/' element={<HomePage/>}/>
