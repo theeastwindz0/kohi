@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.562f17f1.css",
-    "main.js": "/static/js/main.c114ddcf.js",
+    "main.css": "/static/css/main.df5a8b61.css",
+    "main.js": "/static/js/main.923a9b93.js",
     "static/media/bg_image_04.jpg": "/static/media/bg_image_04.d6cbd4a860f08f73aa8d.jpg",
     "static/media/logo_white.png": "/static/media/logo_white.ef65156ca723aceabbd8.png",
     "static/media/product_mobile_holder.jpeg": "/static/media/product_mobile_holder.eaa9ffffcaa787df3935.jpeg",
     "static/media/kohi_text_white.png": "/static/media/kohi_text_white.ffd35a1d0f95912d3306.png",
     "index.html": "/index.html",
-    "main.562f17f1.css.map": "/static/css/main.562f17f1.css.map",
-    "main.c114ddcf.js.map": "/static/js/main.c114ddcf.js.map"
+    "main.df5a8b61.css.map": "/static/css/main.df5a8b61.css.map",
+    "main.923a9b93.js.map": "/static/js/main.923a9b93.js.map"
   },
   "entrypoints": [
-    "static/css/main.562f17f1.css",
-    "static/js/main.c114ddcf.js"
+    "static/css/main.df5a8b61.css",
+    "static/js/main.923a9b93.js"
   ]
 }
