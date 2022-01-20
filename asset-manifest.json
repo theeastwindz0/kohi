@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.99430f9c.css",
-    "main.js": "/static/js/main.e4c82976.js",
+    "main.css": "/static/css/main.7a17aa64.css",
+    "main.js": "/static/js/main.f986385e.js",
     "static/media/bg_image_03.jpg": "/static/media/bg_image_03.5d619bfc62c53efd6d59.jpg",
     "static/media/bg_image_04.jpg": "/static/media/bg_image_04.d6cbd4a860f08f73aa8d.jpg",
     "static/media/product_earphone_03.jpeg": "/static/media/product_earphone_03.46f2df6c3c73b8619b20.jpeg",
     "static/media/logo_white.png": "/static/media/logo_white.ef65156ca723aceabbd8.png",
+    "static/media/product_earphone_01.jpeg": "/static/media/product_earphone_01.bc044d68bac408b051ce.jpeg",
+    "static/media/product_pen_02.jpeg": "/static/media/product_pen_02.7fda3f5c4c7f4114ffac.jpeg",
+    "static/media/product_pencil_01.jpeg": "/static/media/product_pencil_01.de4afa2095e597754b42.jpeg",
+    "static/media/product_pen_01.jpeg": "/static/media/product_pen_01.7ad9f800b0d29fd35452.jpeg",
     "static/media/product_earphone_02.jpeg": "/static/media/product_earphone_02.a084014a4d90785bc1ed.jpeg",
+    "static/media/product_polybag_02.jpeg": "/static/media/product_polybag_02.bcab2870f61c395048cb.jpeg",
+    "static/media/product_polybag_01.jpeg": "/static/media/product_polybag_01.3b66415f3dc294d6773c.jpeg",
     "static/media/product_earphone_04.jpeg": "/static/media/product_earphone_04.3629f27cb62868b61adc.jpeg",
-    "static/media/product_mobile_holder.jpeg": "/static/media/product_mobile_holder.eaa9ffffcaa787df3935.jpeg",
+    "static/media/product_mobile_holder_01.jpeg": "/static/media/product_mobile_holder_01.eaa9ffffcaa787df3935.jpeg",
     "static/media/kohi_text_white.png": "/static/media/kohi_text_white.ffd35a1d0f95912d3306.png",
     "index.html": "/index.html",
-    "main.99430f9c.css.map": "/static/css/main.99430f9c.css.map",
-    "main.e4c82976.js.map": "/static/js/main.e4c82976.js.map"
+    "main.7a17aa64.css.map": "/static/css/main.7a17aa64.css.map",
+    "main.f986385e.js.map": "/static/js/main.f986385e.js.map"
   },
   "entrypoints": [
-    "static/css/main.99430f9c.css",
-    "static/js/main.e4c82976.js"
+    "static/css/main.7a17aa64.css",
+    "static/js/main.f986385e.js"
   ]
 }
