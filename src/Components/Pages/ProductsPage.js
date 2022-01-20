@@ -10,14 +10,14 @@ const ProductsPage = () => {
     return (
         <>
         <FlexKit className='Grid_2'>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
-            <Button2 location='/'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
+            <Button2 location='product'><ProductCard/></Button2>
 
 
         </FlexKit>
