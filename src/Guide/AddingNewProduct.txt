@@ -1,0 +1,5 @@
+To add a new Product
+Written for myself for future purpose
+1.Go to Products Folder add the data
+2.Go to ProductsPage.js add the data
+3.Go to App.js add Route

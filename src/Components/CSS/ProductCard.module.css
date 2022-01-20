@@ -10,6 +10,9 @@
     /* padding: 10px; */
 
     box-shadow: 0 4px 8px 0 rgb(177, 177, 177);
+
+    white-space: pre-wrap;
+
 }
 .Product_Card_Text,.Product_Card_Image{
     display: flex;
@@ -19,10 +22,14 @@
 .Product_Card_Text{
     text-align: center;
     width: 80%;
+    
+    padding: 14px;
+
 }
 
 .Product_Card_Text>*{
     margin: 14px;
+
 }
 
 

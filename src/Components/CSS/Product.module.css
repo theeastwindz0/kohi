@@ -17,8 +17,7 @@
 }
 
 .box_1 {
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .box_1 > * {
@@ -48,7 +47,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin-left: 50px;
   
 }
 
@@ -80,6 +78,8 @@ box-shadow: 0 4px 8px 0 rgb(17, 17, 17);
   font-size: 28px;
   color: limegreen;
 }
+
+
 
 @media (max-width: 750px) {
   .box_1,
