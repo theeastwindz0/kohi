@@ -9,13 +9,16 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const onClose = () => {
-    document.getElementById("overlay").style.width = "0px ";
-    document.getElementById("overlay").style.right = "-100%";
+    document.getElementById("overlay-menu").style.width = "0px ";
+    document.getElementById("overlay-menu").style.right = "-100%";
+    document.getElementById("overlay").style.display='none';
+
   };
 
   const onOpen = () => {
-    document.getElementById("overlay").style.width = "250px";
-    document.getElementById("overlay").style.right = "0%";
+    document.getElementById("overlay-menu").style.width = "250px";
+    document.getElementById("overlay-menu").style.right = "0%";
+    document.getElementById("overlay").style.display='block';
   };
 
   const buttons = [
@@ -43,7 +46,8 @@ const Header = () => {
           <Navigation buttons={buttons} onOpen={onOpen} />
         </div>
       </div>
-      <div className={styles.overlay} id="overlay">
+      <div className={styles.overlay} id='overlay' onClick={onClose}></div>
+      <div className={styles.overlay_menu} id="overlay-menu">
         <FontAwesomeIcon
           onClick={onClose}
           icon={faTimes}

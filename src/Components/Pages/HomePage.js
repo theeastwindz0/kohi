@@ -16,7 +16,7 @@ const HomePage = () => {
     pcBoxLeftTitle:'ORGANIC MOBILE STAND',
     pcBoxLeftDesc:'Portable, Phone stand, Flexible, Mobile holder, Perfect for gift,Multi angle, Mobile stand, Foldable, Phone holderPortable, Phone stand, Flexible, Mobile holder, Perfect for gift, Multi angle, Mobile stand, Foldable, Phone holder',
     pcboxLeftButtonName:'VIEW MORE',
-    pcBoxLeftButtonLocation:'',
+    pcBoxLeftButtonLocation:'products/KMH3008',
     pcBoxRightImage:product_mobile_holder
     }
   

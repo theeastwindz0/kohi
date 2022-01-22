@@ -16,8 +16,8 @@ const ProdutContainer = (props) => {
 
   const viewMoreButton=[
     {
-      title:'VIEW MORE',
-      location:'#'
+      title:props.dataToReceive.pcboxLeftButtonName,
+      location:props.dataToReceive.pcBoxLeftButtonLocation
     }
   ]
  
